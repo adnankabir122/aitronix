@@ -4,7 +4,13 @@
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   color: white;
 }
@@ -44,11 +50,12 @@ header.sticky {
   background-color: rgb(26, 16, 47);
   transition: 1s;
 }
-header.sticky a.nav-link, header.sticky a.navbar-brand {
+header.sticky a.nav-link,
+header.sticky a.navbar-brand {
   color: white !important;
 }
 header.sticky a.nav-link:hover {
-  background: #594D66;
+  background: #594d66;
   color: white !important;
 }
 header.sticky nav.navbar {
@@ -81,7 +88,7 @@ header nav.navbar a.nav-link {
 }
 header nav.navbar a.nav-link:hover {
   border-radius: 5px;
-  background: #594D66;
+  background: #594d66;
 }
 
 .banner-area {
@@ -115,7 +122,7 @@ header nav.navbar a.nav-link:hover {
   font-weight: 200;
 }
 .banner-area .banner-text button.get-started-btn {
-  background: #594D66;
+  background: #594d66;
   border: 0;
   outline: 0;
   margin-top: 40px;
@@ -126,7 +133,7 @@ header nav.navbar a.nav-link:hover {
   font-weight: 500;
 }
 .banner-area .banner-text button.get-started-btn:hover {
-  background: #29142F;
+  background: #29142f;
 }
 
 .section-title h2 {
@@ -144,7 +151,7 @@ header nav.navbar a.nav-link:hover {
 }
 .service-area .all-services .single-service:hover {
   box-shadow: rgb(255, 255, 255) 0px 1px 4px;
-  background: linear-gradient(140deg, #1C84FF, #F23FF6);
+  background: linear-gradient(140deg, #1c84ff, #f23ff6);
 }
 .service-area .all-services .single-service h4 {
   font-size: 18px;
@@ -166,13 +173,13 @@ header nav.navbar a.nav-link:hover {
 }
 .about-us-area .about-contents .about-content-card:hover {
   box-shadow: rgb(255, 255, 255) 0px 1px 4px;
-  background: linear-gradient(140deg, #1C84FF, #F23FF6);
+  background: linear-gradient(140deg, #1c84ff, #f23ff6);
 }
 .about-us-area .about-contents .about-content-card:hover i {
   color: white;
 }
 .about-us-area .about-contents .about-content-card i {
-  color: #1C84FF;
+  color: #1c84ff;
   font-size: 40px;
   margin-bottom: 20px;
 }
@@ -187,8 +194,9 @@ header nav.navbar a.nav-link:hover {
   line-height: 1.5;
 }
 
-.contact-us-form input.form-control, .contact-us-form textarea.form-control {
-  background-color: #09051D;
+.contact-us-form input.form-control,
+.contact-us-form textarea.form-control {
+  background-color: #09051d;
   border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.168627451);
   color: white;
@@ -235,11 +243,11 @@ header nav.navbar a.nav-link:hover {
   border: none;
   color: white;
   border-radius: 5px;
-  background: #594D66;
+  background: #594d66;
   transition: 0.3s;
 }
 .contact-us-form button.form-button:hover {
-  background: #29142F;
+  background: #29142f;
 }
 
 footer {
@@ -280,5 +288,35 @@ footer div.footer-right i {
   transition: 0.3s;
 }
 footer div.footer-right i:hover {
-  color: #1C84FF;
+  color: #1c84ff;
+}
+
+section.agriculture-section .agriculture-header {
+  padding: 180px 0px;
+}
+section.agriculture-section .agriculture-header h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+section.agriculture-section .agriculture-header p {
+  font-size: 25px;
+}
+section.agriculture-section .use-cases h2 {
+  font-size: 34px;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+section.agriculture-section .use-cases .single-use-case {
+  padding: 40px;
+}
+section.agriculture-section .use-cases .single-use-case img {
+  border-radius: 5px;
+}
+section.agriculture-section .use-cases .single-use-case h4 {
+  font-size: 25px;
+  margin-top: 30px;
+}
+section.agriculture-section .use-cases .single-use-case p {
+  font-size: 15px;
+  margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */
