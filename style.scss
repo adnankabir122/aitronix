@@ -29,7 +29,7 @@ a {
 	padding-bottom: 100px;
 }
 body {
-	background: #09051d;
+	background-color: #1f1a41;
 }
 .navbar-toggler {
 	border-radius: 5px;
@@ -45,7 +45,7 @@ body {
 // header section start
 header.sticky {
 	position: fixed;
-	background-color: rgb(26, 16, 47);
+	background-color: #2e273e;
 	transition: 1s;
 	a.nav-link,
 	a.navbar-brand {
@@ -209,7 +209,7 @@ header {
 .contact-us-form {
 	input.form-control,
 	textarea.form-control {
-		background-color: #09051d;
+		background-color: #1f1a41;
 		border-radius: 5px;
 		border: 1px solid #ffffff2b;
 		color: white;
@@ -259,6 +259,7 @@ footer {
 		}
 	}
 	div.footer-middle {
+		text-align: center;
 		h4 {
 			font-size: 24px;
 			margin-bottom: 25px;

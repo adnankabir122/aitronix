@@ -1,1 +1,10 @@
-/*# sourceMappingURL=responsive.css.map */
+@media (max-width: 991.98px) {
+  footer div.footer-middle {
+    margin-top: 30px;
+    text-align: left;
+  }
+  footer div.footer-right {
+    margin-top: 30px;
+    text-align: left;
+  }
+}/*# sourceMappingURL=responsive.css.map */
