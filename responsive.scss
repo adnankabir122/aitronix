@@ -1,18 +1,75 @@
-@media (min-width: 576px) and (max-width: 767px) { 
+@media (max-width: 991.98px) {
+    .navbar-toggler
+    {
+        line-height: normal;
+        border-radius: 0px;
+        &:focus{
+            box-shadow: none;
 
- }
-
- @media (max-width: 991.98px) {
-    
-    footer{
-        div.footer-left{}
-        div.footer-middle{
-            margin-top: 30px;
-            text-align: left;
-        }
-        div.footer-right{
-            margin-top: 30px;
-            text-align: left;
         }
     }
+    header{
+        nav.navbar{
+            .navbar-collapse.show{
+                margin-top: 30px;
+                background: #1F1A41;
+            }
+        } 
+    }
+    header.sticky{
+        nav.navbar{
+            .navbar-collapse.show{
+                background: #2E273E;
+            }
+        } 
+    }
+
+	footer {
+		div.footer-middle {
+			margin-top: 30px;
+			text-align: left;
+		}
+		div.footer-right {
+			margin-top: 30px;
+			text-align: left;
+		}
+	}
+}
+@media (max-width: 575.98px) {
+    header{
+        nav.navbar {
+            padding: 30px 20px;
+            a.navbar-brand {
+                font-size: 18px;
+            }
+        }
+
+    } 
+    header.sticky{
+        nav.navbar {
+            padding: 20px 20px;
+        }
+    } 
+    footer {
+        padding-left: 40px;
+	}
+}
+@media (max-width: 766.98px) {
+	section.sollution-section {
+		.sollution-header {
+			padding: 180px 0px 100px 0px;
+			h1 {
+				font-size: 36px;
+			}
+			p {
+				font-size: 18px;
+			}
+		}
+		.use-cases {
+			padding-bottom: 80px;
+			h2 {
+				font-size: 28px;
+			}
+		}
+	}
 }

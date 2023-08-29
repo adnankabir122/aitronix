@@ -1,4 +1,18 @@
 @media (max-width: 991.98px) {
+  .navbar-toggler {
+    line-height: normal;
+    border-radius: 0px;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  header nav.navbar .navbar-collapse.show {
+    margin-top: 30px;
+    background: #1F1A41;
+  }
+  header.sticky nav.navbar .navbar-collapse.show {
+    background: #2E273E;
+  }
   footer div.footer-middle {
     margin-top: 30px;
     text-align: left;
@@ -6,5 +20,36 @@
   footer div.footer-right {
     margin-top: 30px;
     text-align: left;
+  }
+}
+@media (max-width: 575.98px) {
+  header nav.navbar {
+    padding: 30px 20px;
+  }
+  header nav.navbar a.navbar-brand {
+    font-size: 18px;
+  }
+  header.sticky nav.navbar {
+    padding: 20px 20px;
+  }
+  footer {
+    padding-left: 40px;
+  }
+}
+@media (max-width: 766.98px) {
+  section.sollution-section .sollution-header {
+    padding: 180px 0px 100px 0px;
+  }
+  section.sollution-section .sollution-header h1 {
+    font-size: 36px;
+  }
+  section.sollution-section .sollution-header p {
+    font-size: 18px;
+  }
+  section.sollution-section .use-cases {
+    padding-bottom: 80px;
+  }
+  section.sollution-section .use-cases h2 {
+    font-size: 28px;
   }
 }/*# sourceMappingURL=responsive.css.map */
